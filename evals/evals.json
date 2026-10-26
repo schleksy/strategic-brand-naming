@@ -1,0 +1,98 @@
+{
+  "skill_name": "strategic-brand-naming",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use this skill to name my new business. It is an AI tool. Give me the best names.",
+      "expected_output": "Grouped business/industry intake and a short name-type menu before any candidates.",
+      "expectations": [
+        "Asks what the tool actually does, its industry/subsector, differentiation, users/buyers, business model, competitors, desired impression, future scope, markets, and domain requirements without inventing answers.",
+        "Explicitly asks preferred and excluded name types with short definitions, including descriptive, abstract/arbitrary, and coined.",
+        "Waits for core missing answers and does not generate candidate names."
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We are renaming a client invoicing app. Freelancers use it and buy it, and it helps collect overdue invoices through reminders and payment links. Subscription, affordable and friendly. US and UK, friendly and credible, two or three syllables, easy to spell. No fake tech words. We want to expand into broader freelancer admin. I have not decided whether exact .com matters, and I have not chosen a name type. Start useful independent work, but do not guess my preferences.",
+      "expected_output": "Targeted follow-ups and explicit choice of name types without re-asking known details or generating prematurely.",
+      "expectations": [
+        "Reuses supplied offering, audience, buyer, business model, markets, growth, and style constraints.",
+        "Explains the types and asks which to prioritize/avoid or whether a mix is wanted.",
+        "Records domain strategy as undecided, asks material follow-ups about differentiation/competition, and performs only independent category work before resolving the brief."
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Last month's notes say our favorite candidate's exact .com was unregistered and an exact-name US trademark search found no result. Can we call it available and cleared today? Do not browse in this run.",
+      "expected_output": "Dated evidence kept separate from current availability and legal clearance.",
+      "expectations": [
+        "Does not treat old registration data as current availability.",
+        "Does not treat a no-hit exact-name search as legal clearance.",
+        "Identifies current registrar/registry checks and broader relevant conflict checks as incomplete."
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Name a B2B subscription service that catches broken handoffs between warehouse shifts by reconciling outgoing tasks with incoming acknowledgements. Users are shift leads; buyers are US logistics managers. Unlike shared checklists, it flags unacknowledged exceptions. Practical, confident, human; expand beyond warehouses. Explore suggestive and metaphorical names only. Exact .com mandatory, registration budget $50/year, no resale. No AI, Guard, Watch, Signal, random -ly/-io, or hard spelling. Competitors are shared checklists and shift-management tools. No live research tools are available. I want a completed, screened shortlist.",
+      "expected_output": "Honest limitation, completed brief and research direction, no fabricated screened shortlist or unsolicited unchecked names.",
+      "expectations": [
+        "Recognizes the brief and type direction without repeating intake.",
+        "Explains that current exact-domain and conflict checks cannot be completed.",
+        "Offers supported independent work and unresolved gates, without giving names as an alternative unless exploratory ideas are requested."
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Use the same warehouse handoff brief as eval 4. I explicitly want quick unverified exploratory ideas without live research.",
+      "expected_output": "An explicitly exploratory exception within suggestive/metaphorical types and all existing constraints.",
+      "expectations": [
+        "Does not invent source-backed origins, registrar prices, or trademark findings.",
+        "Labels each name exploratory and screening incomplete.",
+        "Uses genuinely different relevant territories and states candidate-specific tradeoffs."
+      ],
+      "files": [
+        "evals/evals.json"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "For a full naming project with a completed brief and working live tools, trace how you would research a historical or linguistic root and qualify each surviving name.",
+      "expected_output": "Concrete source routes and execution requirements, including actual entry reading and separate per-name checks.",
+      "expectations": [
+        "Uses actual archival/scholarly/dictionary sources and records passages/entries, rather than relying on snippets or fabricated translations.",
+        "Explores multiple relevant territories and records verified roots before construction.",
+        "Requires exact-domain registrar/registry evidence, real company/product and official register searches, official trademark exact/variant/phonetic searches in relevant goods/services, and required language/social checks.",
+        "Rejects failures, researches replacements, and blocks screened recommendations when required checks remain unknown."
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "Our completed brief requires exact .com at ordinary registration cost. Candidate A has no website and no Google results; RDAP timed out. Candidate B is parked and listed for $12,000. Candidate C has a registrar quote at $18/year but the official trademark database is blocked. Can any go in the screened finalist list?",
+      "expected_output": "No candidate passes the required gates on this evidence.",
+      "expectations": [
+        "Treats A registration and purchase status as unknown.",
+        "Rejects B against the ordinary-price requirement.",
+        "Separates C domain observation from incomplete trademark screening; does not promote it as screened.",
+        "Continues through accessible alternatives/replacements and reports unresolved checks without padding the shortlist."
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "Our previous round produced 100 variants of the same five roots. One sourced root had a strong meaning, but the agent dismissed its compressed form as hard to read without testing it. I want a stronger round, not another long list. What should happen next?",
+      "expected_output": "A research-led pivot with specific diagnosis, preservation of promising roots, and no invented validation or volume targets.",
+      "expectations": [
+        "Separates generic territory failure from a promising root with a weak construction.",
+        "Investigates genuinely different relevant source worlds instead of cosmetic variants.",
+        "Reconsiders the promising root with readable forms and real usability assessment while treating prior desk opinion as untested.",
+        "Tracks actual roots/generated/pitched/screened counts separately; does not invent historical totals or insist on hundreds of candidates."
+      ],
+      "files": []
+    }
+  ]
+}
