@@ -4,11 +4,12 @@
     {
       "id": 1,
       "prompt": "Use this skill to name my new business. It is an AI tool. Give me the best names.",
-      "expected_output": "Grouped business/industry intake and a short name-type menu before any candidates.",
+      "expected_output": "Grouped business/industry intake and the complete eight-type menu with definitions, familiar examples, why they fit, and tradeoffs before any candidates.",
       "expectations": [
         "Asks what the tool actually does, its industry/subsector, differentiation, users/buyers, business model, competitors, desired impression, future scope, markets, and domain requirements without inventing answers.",
-        "Explicitly asks preferred and excluded name types with short definitions, including descriptive, abstract/arbitrary, and coined.",
-        "Waits for core missing answers and does not generate candidate names."
+        "Explains all eight name types with plain-English definitions, familiar company examples, why each example fits, and a brief tradeoff; distinguishes existing-word arbitrary names such as Apple from invented names such as Kodak.",
+        "Waits for core missing answers and does not generate candidate names.",
+        "Asks which examples or approaches the user likes or dislikes and why, accepts answers in everyday language and a ranked mix, and explains that categories can overlap."
       ],
       "files": []
     },
@@ -18,7 +19,7 @@
       "expected_output": "Targeted follow-ups and explicit choice of name types without re-asking known details or generating prematurely.",
       "expectations": [
         "Reuses supplied offering, audience, buyer, business model, markets, growth, and style constraints.",
-        "Explains the types and asks which to prioritize/avoid or whether a mix is wanted.",
+        "Explains unresolved name-type options with familiar company examples and tradeoffs, asks which examples the user likes/dislikes and why, and accepts a mix without re-asking known business details.",
         "Records domain strategy as undecided, asks material follow-ups about differentiation/competition, and performs only independent category work before resolving the brief."
       ],
       "files": []

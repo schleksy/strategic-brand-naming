@@ -35,14 +35,14 @@ Or evaluate a candidate:
 | Stage | Work |
 |---|---|
 | Understand | Ask about the business, industry, differentiation, business model, audience, markets, growth, and constraints. Reuse known answers and resolve missing core information. |
-| Choose types | Ask which types to prioritize or avoid: descriptive, suggestive, metaphorical, arbitrary/abstract, coined, founder, geographic/cultural, or acronym. |
+| Choose types | Explain all eight types with familiar company examples, why they fit, and practical tradeoffs. Ask which examples the user likes or dislikes and why; allow a ranked mix. |
 | Investigate | Read relevant industry, dictionary, archive, scholarly, and cultural sources. Develop verified roots across distinct territories and follow promising references. |
 | Generate and pivot | Develop a broad pool. Change territories when a direction becomes generic, crowded, unreadable, or strategically weak. |
 | Eliminate | Remove intrinsically weak names before spending time on detailed external screening. |
 | Screen | Complete live company/product, exact-domain, preliminary trademark, language/culture, and required handle checks for each finalist. Reject hard failures and research replacements. |
 | Recommend | Test the strongest names in speech and real use, evaluate their stories, and present a small shortlist with clear tradeoffs. |
 
-For a new project, expect questions before names. You can choose one type, a ranked mix, or ask the agent to recommend a mix. Known project details do not need to be repeated.
+For a new project, expect questions before names. The agent explains the name types with examples such as Apple, Kodak, Amazon, and IBM, so you can respond to familiar names without knowing naming terminology. You can choose one type, a ranked mix, or ask the agent to recommend a mix. Known project details do not need to be repeated.
 
 ## What you get
 

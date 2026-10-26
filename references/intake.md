@@ -1,6 +1,6 @@
 # Business and naming intake
 
-Use this for new naming projects. Reuse facts the user has already supplied, including reliable project documents. Ask only unanswered material questions, but do not skip the business brief to start brainstorming. In the first intake response, ask missing core questions about the business and industry, audience/differentiation, desired impression, markets, name-type direction, and domain requirements together. Include the short name-type menu in that first response. Use a later round for deeper follow-ups rather than postponing those core choices.
+Use this for new naming projects. Reuse facts the user has already supplied, including reliable project documents. Ask only unanswered material questions, but do not skip the business brief to start brainstorming. In the first intake response, ask missing core questions about the business and industry, audience/differentiation, desired impression, markets, name-type direction, and domain requirements together. Include the complete eight-type menu with plain-English definitions, familiar company examples, and brief tradeoffs in that first response when the name-type direction is unresolved. Use a later round for deeper follow-ups rather than postponing those core choices.
 
 ## Understand the business
 
@@ -15,18 +15,26 @@ Research public facts independently when useful. A competitor page can establish
 
 ## Choose name types and practical constraints
 
-Explicitly offer this menu, with short explanations. Ask which types to prioritize and which to avoid. Accept one type, several ranked types, an open mix, or an explicit request for guidance. If the user is unsure, explain the tradeoffs and ask whether to explore the recommended mix. Do not infer their preference from their industry.
+Teach the options before asking the user to choose. When the name-type direction is unresolved, present all eight types below with a plain-English explanation, a familiar company example, why the example fits, and a brief practical tradeoff. Do not simply ask what type of name they want or present unexplained category labels. Keep the menu concise and readable; avoid turning it into a lecture.
 
-| Type | Plain-English explanation |
-|---|---|
-| Descriptive | Directly says what the business offers or does. |
-| Suggestive / evocative | Hints at a benefit, behavior, or feeling. |
-| Metaphorical | Borrows an image, object, or system that parallels the business. |
-| Arbitrary / abstract | Uses an existing word unrelated to the category. |
-| Coined / invented | Creates a new word or combines meaningful roots. |
-| Founder / eponymous | Uses a person's name. |
-| Geographic / cultural | Draws on a place, tradition, or cultural reference. |
-| Acronym / initialism | Uses letters from a longer phrase. |
+Ask which examples or approaches feel closest to what they want, which they dislike, and why. Let them answer using company examples rather than technical terminology. Accept one type, several ranked types, an open mix, or an explicit request for guidance. If the user is unsure, recommend a mix appropriate to the business and ask whether to explore it. Do not infer agreement from silence or require a single category. Reuse an already resolved type preference rather than repeating the menu.
+
+| Type | Plain-English explanation | Familiar example and why it fits | Main tradeoff |
+|---|---|---|---|
+| Descriptive | Directly says what the business offers or does. | **General Motors** directly identifies the automotive field. | Immediate clarity; can feel generic or limit expansion. |
+| Suggestive / evocative | Hints at a benefit, behavior, or feeling. | **DoorDash** suggests fast delivery to your door. | Connects to the benefit; can resemble other category names. |
+| Metaphorical | Borrows an image, object, or system whose qualities parallel the business. | **Amazon** draws on the river's scale to suggest a vast selection. | Rich associations and story; the connection may need explaining. |
+| Arbitrary / abstract | Uses an existing word unrelated to the category. | **Apple** is a familiar word that does not describe computers. | Flexible and distinctive in context; the business meaning must be built. |
+| Coined / invented | Creates a new word, with meaningful roots or a distinctive sound. | **Kodak** was deliberately invented rather than borrowed from an existing word. | A distinctive verbal identity; spelling and pronunciation need testing. |
+| Founder / eponymous | Uses a person's name. | **Ford** uses founder Henry Ford's surname. | Personal identity and heritage; ties the brand to a person. |
+| Geographic / cultural | Draws on a place, tradition, or cultural reference. | **Patagonia** draws on a real region and its outdoor associations. | A sense of place or identity; may suggest an origin or limit expansion. |
+| Acronym / initialism | Uses letters from a longer phrase. | **IBM** shortens International Business Machines. | Compact; unfamiliar letters can be harder to remember or distinguish. |
+
+These examples illustrate naming mechanisms, not rigid categories or guarantees of success. A name can fit more than one type: a geographic reference can also work as a metaphor. Explain that **Apple uses an existing word**, while **Kodak invents one**; do not collapse arbitrary and coined into a single unexplained "abstract" bucket. Do not assume a famous company's recognition proves a similar new name would be easy to establish.
+
+For historical explanations, use verified origin accounts rather than invented brand stories. Source references for the examples above: [Amazon](https://www.aboutamazon.com/news/books-and-authors/books-are-in-our-dna), [Kodak](https://www.kodak.com/en/company/page/george-eastman-history/), [Ford](https://corporate.ford.com/corporate/corporate/articles/history/henry-ford-biography/), [Patagonia](https://www.patagonia.com/stories/culture/community/in-the-place-of/story-20353.html), and [IBM](https://www.ibm.com/investor/help/general-faqs). The DoorDash explanation is an illustrative reading of the name, not a claim about the founder's documented intent.
+
+After the menu, ask in plain language, for example: "Which examples feel closest to the kind of name you want, which do you dislike, and why? You can pick a few directions or ask me to recommend a mix." Record the reasons behind their reactions, not just category labels.
 
 Explain that industry terminology, historical research, and foreign-language roots are research territories; blends, compounds, and compressed spellings are construction methods. These can support more than one name type. Coined and abstract are not interchangeable.
 
