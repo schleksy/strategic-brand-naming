@@ -2,10 +2,25 @@
 
 Use these fields in the project's existing file or conversation record. Do not create a new system when one already exists. Keep current observations dated and project specific. Record findings and decisions, not private reasoning. Keep the record outside this reusable skill repository; do not commit client research here.
 
+## Contents
+
+- [Execution status](#execution-status)
+- [Brief](#brief)
+- [Direction calibration](#direction-calibration)
+- [Territory register](#territory-register)
+- [Candidate register](#candidate-register)
+- [External screening register](#external-screening-register)
+- [Finalist card](#finalist-card)
+- [Ranked shortlist and research reserves](#ranked-shortlist-and-research-reserves)
+- [Decision and continuation](#decision-and-continuation)
+- [Illustrative behavior](#illustrative-behavior)
+- [Completion audit](#completion-audit)
+- [Limitation disclosure for provisional results](#limitation-disclosure-for-provisional-results)
+
 ## Execution status
 
 - Scope: full new project, rename, pivot, candidate comparison, or screening-only audit.
-- Current stage and stages actually completed; brief/type requirements still open.
+- Current stage and stages actually completed, including early direction calibration; brief/type requirements still open.
 - Supporting references actually read; any unavailable files or tools.
 - Evidence pointers for each completed stage: brief, territory/root findings, eliminations, and candidate-specific checks.
 - Latest handoff checkpoint and next concrete action.
@@ -14,7 +29,7 @@ Do not mark a stage complete because its template exists. Link completed work to
 
 ## Brief
 
-- Object being named; offering and core behavior/outcome.
+- Object being named: company/umbrella brand, product, tool, feature, service, or other; parent-brand relationship, realistic scope, offering and core behavior/outcome.
 - Industry/subsector, business model, positioning, differentiation, competitors/substitutes.
 - Audience, user, buyer, trust context, category.
 - Desired associations; exclusions; liked/disliked examples and why.
@@ -24,6 +39,17 @@ Do not mark a stage complete because its template exists. Link completed work to
 - Intake fields marked answered, explicitly open/delegated, or unanswered.
 - Trademark jurisdictions and intended goods/services.
 - Hard constraints, preferences, unanswered questions, explicit assumptions.
+
+## Direction calibration
+
+- Intake coverage: answered, explicitly open/delegated, or unanswered for each material field; next single question.
+- Liked/disliked examples and the user's actual reasons, quoted or faithfully paraphrased.
+- Agent interpretation, clearly distinguished from user statements.
+- Early exploratory pitch, if needed: exact names, styles, roots, vocabulary/shape differences, explicit unchecked status.
+- User reaction, confirmed direction or delegation, and any remaining uncertainty.
+- Preference versus hard exclusion; styles explored internally versus permitted to pitch.
+
+Do not invent reasons for “none.” Do not count early exploratory names as screened finalists.
 
 ## Territory register
 
@@ -46,7 +72,7 @@ Use raw, intrinsic pass, screening incomplete, screened candidate, finalist, rej
 | Candidate | Check | Exact query / domain / mark | Source URL or database | Checked at | Market / jurisdiction / scope | Observed result | Limitation / next action |
 |---|---|---|---|---|---|---|---|---|
 
-For domains record registrar/registry and exact observed status, price/currency/term if visible. For trademarks distinguish exact, close spelling, phonetic, and related goods/services results. A no-hit query is not legal clearance.
+For domains record registrar/registry and exact observed status, purchase/registration price, currency, term, renewal if visible, standard/premium/resale classification, and check date. Mark absent prices as not quoted. For trademarks distinguish exact, close spelling, phonetic, and related goods/services results. A no-hit query is not legal clearance.
 
 ## Finalist card
 
@@ -58,7 +84,18 @@ For domains record registrar/registry and exact observed status, price/currency/
 - Pronunciation/spelling/recall assessment and whether humans actually tested it.
 - Current domain, company, preliminary mark, language, and search/social findings, each with dates/sources or explicit "not checked."
 - Strongest reason to use it; strongest reason to reject it.
-- Recommendation and unresolved gates.
+- Overall rank, strongest reason for inclusion, principal tradeoff, and unresolved gates.
+- Exact domain quote displayed to the user, including date, provider, currency, term, and renewal when observed.
+
+## Ranked shortlist and research reserves
+
+- Final choice set: 5–10 distinct qualified options unless another count is requested or a genuine shortfall is disclosed.
+- Diversity review: repeated roots/constructions removed; meaningful differences in vocabulary, sound, form, and semantic approach.
+- Overall best-to-worst ranking and per-style grouping.
+- Remaining candidates ranked after the main set, with omission reasons and exact domain/price observations.
+- Separate screened alternatives, domain-positive screening-incomplete candidates, hard failures, and user rejections.
+- Offer to show more; record whether accepted. On acceptance, show the strongest remaining option first, keep global ranks, and order style sections by their strongest member.
+- For an all-available inventory, preserve all recorded domain-positive rows with honest status and dated historical quotes; do not manufacture a fresh check or hide known conflicts.
 
 ## Decision and continuation
 

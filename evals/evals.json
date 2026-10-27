@@ -4,23 +4,24 @@
     {
       "id": 1,
       "prompt": "Use this skill to name my new business. It is an AI tool. Give me the best names.",
-      "expected_output": "Grouped business/industry intake and the complete eight-type menu with definitions, familiar examples, why they fit, and tradeoffs before any candidates.",
+      "expected_output": "A discovery-stage response with one focused question about the naming object or offering, then adaptive intake across later turns.",
       "expectations": [
-        "Asks what the tool actually does, its industry/subsector, differentiation, users/buyers, business model, competitors, desired impression, future scope, markets, and domain requirements without inventing answers.",
-        "Explains all eight name types with plain-English definitions, familiar company examples, why each example fits, and a brief tradeoff; distinguishes existing-word arbitrary names such as Apple from invented names such as Kodak.",
-        "Waits for core missing answers and does not generate candidate names.",
-        "Asks which examples or approaches the user likes or dislikes and why, accepts answers in everyday language and a ranked mix, and explains that categories can overlap."
+        "Reads the workflow and asks one focused question, not a multi-part questionnaire or complete eight-type menu.",
+        "Does not invent product facts or generate names from the underspecified AI-tool brief.",
+        "Tracks unanswered material fields for later turns rather than skipping them.",
+        "Learns liked/disliked examples and reasons before deep research or bulk domain checking."
       ],
       "files": []
     },
     {
       "id": 2,
       "prompt": "We are renaming a client invoicing app. Freelancers use it and buy it, and it helps collect overdue invoices through reminders and payment links. Subscription, affordable and friendly. US and UK, friendly and credible, two or three syllables, easy to spell. No fake tech words. We want to expand into broader freelancer admin. I have not decided whether exact .com matters, and I have not chosen a name type. Start useful independent work, but do not guess my preferences.",
-      "expected_output": "Targeted follow-ups and explicit choice of name types without re-asking known details or generating prematurely.",
+      "expected_output": "One adaptive follow-up on the most material remaining uncertainty, preserving known facts and explicit undecided answers.",
       "expectations": [
-        "Reuses supplied offering, audience, buyer, business model, markets, growth, and style constraints.",
-        "Explains unresolved name-type options with familiar company examples and tradeoffs, asks which examples the user likes/dislikes and why, and accepts a mix without re-asking known business details.",
-        "Records domain strategy as undecided, asks material follow-ups about differentiation/competition, and performs only independent category work before resolving the brief."
+        "Reuses the supplied offering, audience, buyer, business model, markets, growth, and style constraints.",
+        "Asks only one focused question, using liked-name examples or progressive type explanations when useful.",
+        "Records domain strategy as explicitly undecided rather than assuming exact .com or silently relaxing it.",
+        "Does not begin a long research pass or bulk checks before direction calibration, and does not repeat the entire intake."
       ],
       "files": []
     },
@@ -99,10 +100,10 @@
     {
       "id": 9,
       "prompt": "Use strategic-brand-naming to name my new reputation software. I downloaded and forked the skill. Just give me the best brand name.",
-      "expected_output": "Actual skill loading and a discovery-stage response with business questions and the illustrated name-type menu, not an unsupported name.",
+      "expected_output": "Actual skill loading and one focused discovery question, not an unsupported name or opening questionnaire.",
       "expectations": [
         "Reads SKILL.md and required references rather than treating a download, README, or metadata as invocation.",
-        "Identifies the initial stage and asks unresolved business/industry, audience, differentiation, market, name-type, and domain questions.",
+        "Identifies the initial stage, asks one focused unanswered question, and keeps the remaining intake coverage for later turns.",
         "Does not interpret ordinary brevity or urgency as permission for unverified exploratory naming.",
         "Does not claim research, domain checks, or a completed naming process without evidence."
       ],
@@ -142,6 +143,75 @@
         "Identifies completed source work, actual domain/trademark access failures, and remaining checks separately.",
         "Does not characterize the unperformed accessible social check as a technical limitation; completes it when candidate/platform details are available.",
         "Does not require a second user permission to show provisional output, claim availability, or promote the candidates to screened finalists."
+      ],
+      "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "Use this skill for a standalone browser tool that helps event organizers compare venue proposals. It is a subscription product, not our company name. US English, easy to say, exact .com under $40 per year, no resale. We know its job and audience but have no naming taste yet. Can you show a few different directions before spending ages researching? No live checks yet.",
+      "expected_output": "A varied 5–7-name exploratory direction check tailored to the product, followed by one feedback question.",
+      "expectations": [
+        "Does not apply corporate portfolio or fundraising criteria to this focused product.",
+        "Provides genuinely varied roots, word shapes, and semantic approaches rather than repeated Venue-plus-suffix variants.",
+        "Labels names exploratory and domains/conflicts unchecked; invents no prices or origins.",
+        "Asks one focused question about which direction appeals and why; waits before deep research."
+      ],
+      "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "This is a product, not our company. I like clear descriptive names. Please only pitch descriptive options. How will you explore without ending up with ten copies of the same words?",
+      "expected_output": "Prioritizes descriptive output while using contrasting styles internally to improve variety.",
+      "expectations": [
+        "Explores some contrasting styles in the background without pitching prohibited styles.",
+        "Varies vocabulary, roots, constructions, rhythms, and semantic approaches within the descriptive choices.",
+        "Does not ask the user to approve every internal exploration step or replace the promised options with wildcards."
+      ],
+      "files": []
+    },
+    {
+      "id": 15,
+      "prompt": "The brief, taste calibration, research, and screening are complete. Eight distinct names pass every hard requirement with dated domain quotes and conflict checks in our project record. What should the final deliverable contain?",
+      "expected_output": "A ranked 5–10-option final shortlist with visible domain details and an offer of next-best research.",
+      "expectations": [
+        "Does not reduce the result to one winning name.",
+        "Shows exact domains, availability dates, provider, observed prices, currency, term, renewal when shown, and standard/premium/resale classification.",
+        "Includes fit, naming style, tradeoff, and separate conflict findings for each option.",
+        "Ends with a concise offer to see the next-best remaining research, grouped by style."
+      ],
+      "files": []
+    },
+    {
+      "id": 16,
+      "prompt": "Yes, show me the other available-domain names from the research. The five finalists were already presented. Remaining record: overall rank 6 AsterRoute, suggestive, quoted $18/year, screened, omitted only for weaker fit; rank 7 OpenLedgerly, descriptive, quoted $20/year, screened, omitted for spelling friction; rank 8 CedarRelay, suggestive, quoted $18/year, screened, omitted for weaker recall; rank 9 EchoPacket, metaphorical, quoted $22/year, domain checked but marks not checked. All quotes are from three weeks ago. This is a synthetic presentation exercise; do not browse or invent new facts.",
+      "expected_output": "Existing reserves shown strongest first, grouped by style with continuing global ranks and honest historical domain/screening status.",
+      "expectations": [
+        "Starts with overall rank 6, not the weakest candidate, and does not repeat the five finalists.",
+        "Groups by style, orders sections by strongest member and names within each section best first, preserving global ranks.",
+        "Shows prices with original term and labels quotes historical rather than claiming current availability.",
+        "Separates the domain-only candidate from screened recommendations and includes actual omission reasons."
+      ],
+      "files": []
+    },
+    {
+      "id": 17,
+      "prompt": "I rejected your exploratory directions with 'none'. What should you do before another long batch of research?",
+      "expected_output": "A single diagnostic question or genuinely different small calibration set, without inventing rejection reasons.",
+      "expectations": [
+        "Records that no individual rejection rationale was supplied.",
+        "Does not recycle the same roots or launch bulk domain checks to rescue the rejected direction.",
+        "Asks one focused diagnostic question or offers a small contrasting exploratory set and waits for feedback."
+      ],
+      "files": []
+    },
+    {
+      "id": 18,
+      "prompt": "We asked for five to ten final choices. Only three have passed all required checks after meaningful replacement attempts; a required official database is now inaccessible. Should you fill the rest with domain-available names whose trademark checks are unknown?",
+      "expected_output": "Honest shortfall and separate provisional status, never padding or fabricated clearance.",
+      "expectations": [
+        "Keeps the three qualified names distinct from incompletely screened names.",
+        "States the actual limitation and attempts rather than claiming all five to ten pass.",
+        "Does not fabricate evidence or let the target count override hard requirements."
       ],
       "files": []
     }

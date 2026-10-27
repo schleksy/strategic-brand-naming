@@ -69,14 +69,14 @@ Discovery, screening, and selection are separate stages.
 
 ## Phase 1: understand the brand
 
-Before generating names, complete [intake.md](intake.md). Establish the actual business, industry/subsector, offering and differentiation, business model, audience/buyer, markets, desired associations, future scope, selected name types, and domain requirements. Explicitly ask which name types to prioritize and avoid using the menu above. Accept an explicit open mix; do not choose silently.
+Before deep research and screened recommendations, complete [intake.md](intake.md). Early direction examples follow the calibration exception below. Establish the actual business, industry/subsector, offering and differentiation, business model, audience/buyer, markets, desired associations, future scope, selected name types, and domain requirements. Learn liked/disliked names and why. Explain relevant name types progressively if needed; do not require the full menu in the opening message. Accept example-based direction or an explicit open mix; do not choose silently.
 
-Use context already available. Ask grouped material questions and wait for missing core answers. Do not convert an unanswered requirement into a provisional assumption to skip intake. An explicit request for immediate exploratory ideas permits a clearly labeled exception, not a completed recommendation.
+Use context already available. Ask one focused question per message, wait for the answer, and adapt the next question. Use the intake checklist internally to cover all material fields without repeating resolved ones. Do not convert an unanswered requirement into a provisional assumption to skip intake. An explicit request for immediate exploratory ideas permits a clearly labeled exception, not a completed recommendation.
 
 Determine:
 
 - What exactly is being named?
-- Company, product, service, platform, feature, initiative, holding company, etc.
+- Company, umbrella brand, product, tool, service, platform, feature, initiative, holding company, etc.
 - What does it actually do?
 - What behavior/problem/outcome matters most?
 - Who is the audience?
@@ -115,13 +115,19 @@ Define:
 3. What does the company need the name to contribute?
 4. What should the name communicate, imply, or deliberately leave unsaid?
 
-The name is a strategic tool, not a description field.
+The name is a strategic tool, not a description field. Tailor its job to the object being named: a company may need portfolio breadth; a focused product/tool may benefit from functional clarity and natural everyday usage. Neither forces a particular name type. Research relevant product competitors for a tool rather than defaulting to corporate naming exemplars.
+
+### Direction calibration before deep research
+
+Before lengthy source exploration or bulk availability searches, establish taste through a few liked/disliked names and the reasons behind them. If that remains unclear, present 5–7 varied exploratory names using a light orientation to the brief. Label them unchecked for domains/conflicts and avoid unsupported origin claims. Ask one focused reaction question, then wait for the user's response unless direction is already delegated.
+
+Contrast roots, vocabulary, rhythm, construction, and meaning. Where styles are open, compare several; where narrow, create meaningful variety within that style. Do not treat approval of one example as permission to clone its exact words. This early calibration is a deliberate workflow stage, separate from the screened 5–10-option final shortlist.
 
 ---
 
 ## Phase 2: map the naming landscape
 
-Before creating actual names, research the category using [research-sources.md](research-sources.md). Read actual company/product and industry sources. For a full naming project, compare genuinely different territories, including a lateral territory, with depth driven by the brief and evidence rather than a fixed quota. Record source-backed root cards before constructing names; a list of territory labels is not research.
+After direction calibration, research the category for the substantive naming round using [research-sources.md](research-sources.md). Read actual company/product and industry sources. For a full naming project, compare genuinely different territories, including a lateral territory, with depth driven by the brief and evidence rather than a fixed quota. Record source-backed root cards before constructing names; a list of territory labels is not research.
 
 Study:
 
@@ -364,9 +370,9 @@ Generate far more ideas internally than will ever be shown.
 
 Explore enough distinct roots and constructions to support meaningful comparison. Do not use hundreds of names or any other arbitrary volume as a proxy for research quality. Track actual roots investigated, raw names generated, names pitched, rejected names, and screened survivors separately.
 
-Raw ideas are not finalists.
+Raw ideas are not finalists. Before pitching either a calibration set or final shortlist, check for repeated roots, interchangeable compounds, similar sound/word shapes, and cloned examples. Select the best representative of a family and use different semantic approaches for the remaining places. Do not mistake a new suffix for a new idea.
 
-Stay within the selected name types and hard constraints. The following are possible approaches, not a requirement to produce types the user excluded.
+Prioritize selected types and preserve hard constraints. Explore a few other styles internally, even for a descriptive preference, to compare creative possibilities and improve in-scope work. Never pitch explicitly excluded styles. Include a labeled wildcard only when the user allows it. Keep at least five strong in-scope choices in the final set when enough qualify; an out-of-direction alternative is not a replacement for them. The following are possible research approaches, not a requirement to pitch every type.
 
 Include:
 
@@ -602,9 +608,10 @@ The story is a multiplier, not life support.
 Test finalists in actual use:
 
 - “Have you heard of ___?”
-- “I work at ___.”
+- “I work at ___.” (company)
+- “Open ___.” / “I use ___ to do this.” (product/tool)
 - “Send it through ___.”
-- “___ raised a Series A.”
+- “___ raised a Series A.” (only when relevant to the named company)
 - “___ just launched.”
 - app icon
 - URL
@@ -622,25 +629,25 @@ A name can look excellent in a naming deck and fail in speech.
 
 ## Presentation rule
 
-Do not show the client hundreds of names.
+Use two distinct presentations:
 
-The broad exploration happens internally.
-
-Present only candidates that survived enough scrutiny to be worth discussing.
+1. **Early calibration:** 5–7 varied exploratory names when liked/disliked examples do not resolve direction. Get feedback before the long research pass; do not imply availability.
+2. **Final researched shortlist:** the best **5–10 distinct qualified options**, ranked strongest first, unless another count was requested. Highlight a favorite if useful but do not collapse the deliverable into one name. Continue researching replacements when too few qualify; disclose a genuine shortfall without padding.
 
 For each finalist include:
 
-- Name
-- Pronunciation if needed
-- Naming territory
-- Origin/meaning
-- Why it fits
-- Current domain status
-- Current conflict findings
-- Important risks
-- Confidence / recommendation reasoning
+- Name, pronunciation if needed, and naming style/territory.
+- Verified origin/meaning or labeled invented construction.
+- Fit for the actual company, product, tool, or other naming object.
+- Exact domain, dated availability status, registrar/provider, observed price, currency and term, renewal when shown, and standard/premium/resale status.
+- Separate current conflict findings and unresolved checks.
+- Strongest reason to choose it and principal tradeoff.
 
-Do not hide weaknesses.
+Never invent a missing price. Say “not quoted” and keep unknown checks visible. A two-year registration fee is not a one-year price. Use dated evidence links or record pointers.
+
+End by offering the next-best research options, grouped by naming style. If accepted, use the existing candidate record. Start with the strongest remaining candidate after the main shortlist and continue the global rank numbers. Order style sections by their strongest member and names within each section from strongest to weakest. Preserve global ranks when grouping interrupts strict overall sequence.
+
+For “all available names,” distinguish fully screened options from domain-positive but incomplete or rejected candidates. Include the recorded domain prices and reasons names were omitted, flag historical observations, and do not present known conflicts or unchecked names as recommendations. Do not replace the requested inventory with a new brainstorming round.
 
 ---
 
@@ -721,4 +728,4 @@ For trademarks, report the scope of the preliminary search and confusing similar
 
 For pronunciation, spelling, and recall, distinguish an agent's desk assessment from actual human testing. Use spoken/heard-first, spelling, and delayed recall trials when participants are available. Never invent test participants, success rates, or memorability scores.
 
-If live research is unavailable after trying accessible alternatives, finish discovery and supported work, disclose exactly what could not be checked and why, and record remaining work. When the brief is usable, present a small **provisional shortlist, screening incomplete** without requiring another permission round. Put the limitation notice before the names and show unknown checks per candidate. Separate desk exploration from verified research and provisional output from a completed screened recommendation. Do not pretend the result is launch ready or repeatedly ask permission to continue accessible independent work.
+If live research is unavailable after trying accessible alternatives, finish discovery and supported work, disclose exactly what could not be checked and why, and record remaining work. When the brief is usable, aim for 5–10 distinct useful options in a **provisional shortlist, screening incomplete** without requiring another permission round. Put the limitation notice before the names and show unknown checks per candidate. Separate desk exploration from verified research and provisional output from a completed screened recommendation. Do not pretend the result is launch ready or repeatedly ask permission to continue accessible independent work.

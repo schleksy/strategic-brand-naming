@@ -1,6 +1,6 @@
 interface:
   display_name: "Strategic Brand Naming"
   short_description: "Research, develop, and screen distinctive brand names"
-  default_prompt: "Use $strategic-brand-naming to understand my business and industry, ask my preferred name types, research source-backed territories, and check live domains and brand conflicts before recommending names."
+  default_prompt: "Use $strategic-brand-naming to clarify what I am naming one question at a time, calibrate taste before deep research, then present 5–10 varied researched options with live domain status and prices and offer ranked alternatives."
 policy:
   allow_implicit_invocation: true

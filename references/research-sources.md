@@ -1,6 +1,6 @@
 # Research sources and execution
 
-Use this guide before researching a project. Choose sources for the actual industry, market, and selected name types. These are research starting points, not claims that any source is accessible or any name is available today. Prefer free accessible sources; disclose a blocked page and use an appropriate alternative rather than claiming to have read it.
+Use this guide before researching a project. Choose sources for the actual naming object (company, product, tool, feature, or service), industry, market, and preferred name types. Complete early direction calibration from `SKILL.md` before a long research pass or bulk domain checking; that explicitly unchecked stage does not require the final screening workflow. These are research starting points, not claims that any source is accessible or any name is available today. Prefer free accessible sources; disclose a blocked page and use an appropriate alternative rather than claiming to have read it.
 
 ## Contents
 
@@ -58,10 +58,10 @@ Keep an evidence row for each check: exact name/query/domain; source/result URL 
 
 ## Finish the work
 
-- Use available tools through discovery, generation, knockout, and external screening. Do not give a research plan as a substitute for performing accessible checks.
+- After resolving direction, use available tools through research, generation, knockout, and external screening. Do not give a research plan as a substitute for performing accessible checks.
 - Record actual work by territory and batch: roots investigated, constructions generated, names presented, names rejected with reasons, and survivors checked. Keep these counts distinct and mark unknown historical counts as unknown. More output is not evidence of better research.
 - Reject hard failures and research replacements. If none survive, report that and identify the next territory or constraint decision. Never quietly relax the user's brief.
 - Try suitable alternative sources when a service is inaccessible. Do not bypass access restrictions, buy services, register domains, or file trademarks as part of research.
 - Treat inaccessible official databases as incomplete checks even if search-engine snippets exist. Show a checked candidate's unresolved fields honestly; do not promote it to a screened finalist.
-- If live research is unavailable after accessible alternatives, provide completed discovery and supported findings, then offer a small **provisional shortlist, screening incomplete** when the brief is usable. Put the actual limitations before the names and show each unknown check. Separate desk exploration from verified research. Do not require a second request for provisional output, imply availability, or claim a blocked or skipped stage was completed.
+- If live research is unavailable after accessible alternatives, provide completed discovery and supported findings, then aim for 5–10 distinct useful options in a **provisional shortlist, screening incomplete** when the brief is usable. Put the actual limitations before the names and show each unknown check. Separate desk exploration from verified research. Do not require a second request for provisional output, imply availability, or claim a blocked or skipped stage was completed.
 - Recheck relevant availability before the final recommendation and again before a launch/purchase decision if time has passed. Source access and search findings can change.

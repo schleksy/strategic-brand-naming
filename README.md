@@ -2,7 +2,7 @@
 
 Distinctive names, backed by research and checked for real-world use.
 
-An agent skill for naming and renaming brands, companies, products, and services, evaluating candidates, and improving weak naming rounds. It starts with a business brief and illustrated name-type choices, explores source-backed territories, then checks the strongest names before recommending them. Its scope is brand identity; naming people, files, or code identifiers falls outside that scope.
+An agent skill for naming and renaming brands, companies, products, and services, evaluating candidates, and improving weak naming rounds. It starts with one question at a time, distinguishes companies from products and tools, and calibrates naming taste before a long research pass. It then explores source-backed territories and checks the strongest names before presenting 5–10 distinct options. Its scope is commercial naming; naming people, files, or code identifiers falls outside that scope.
 
 ## Install and verify loading
 
@@ -28,7 +28,7 @@ Claude's local folders do not automatically carry into every Cowork or cloud ses
 After installation:
 
 - Confirm the skill appears in the host's available-skills list or selector.
-- Invoke it explicitly once and ask it to identify its starting stage. For an underspecified business, expect business questions and the illustrated type menu before candidate names.
+- Invoke it explicitly once and ask it to identify its starting stage. For an underspecified business, expect one focused discovery question at a time, followed by early direction calibration before lengthy research.
 - Confirm the agent loaded the actual `SKILL.md` and references, rather than relying on a README summary. If loading is unclear, inspect the host's tool trace or skill invocation indicator; an agent's claim alone is not proof.
 - Update installed copies when this repository changes. Check for stale or duplicate installations if behavior differs.
 
@@ -62,21 +62,23 @@ Or evaluate a candidate:
 
 | Stage | Work |
 |---|---|
-| Understand | Ask about the business, industry, differentiation, business model, audience, markets, growth, and constraints. Reuse known answers and resolve missing core information. |
-| Choose types | Explain all eight types with familiar company examples, why they fit, and practical tradeoffs. Ask which examples the user likes or dislikes and why; allow a ranked mix. |
+| Understand | Establish company, product, tool, feature, or service scope. Ask one adaptive question per message; cover the full brief without repeating known answers. |
+| Calibrate direction | Learn liked/disliked names and why. When needed, show 5–7 varied exploratory names before lengthy research or bulk domain checks. Explain styles progressively. |
 | Investigate | Read relevant industry, dictionary, archive, scholarly, and cultural sources. Develop verified roots across distinct territories and follow promising references. |
-| Generate and pivot | Develop a broad pool. Change territories when a direction becomes generic, crowded, unreadable, or strategically weak. |
+| Generate and pivot | Vary roots, vocabulary, sounds, and constructions. Compare contrasting styles internally while respecting presentation exclusions. Pivot when a direction becomes weak. |
 | Eliminate | Remove intrinsically weak names before spending time on detailed external screening. |
 | Screen | Complete live company/product, exact-domain, preliminary trademark, language/culture, and required handle checks for each finalist. Reject hard failures and research replacements. |
-| Recommend | Test the strongest names in speech and real use, evaluate their stories, and present a small shortlist with clear tradeoffs. |
+| Recommend | Present the best 5–10 distinct qualified options, strongest first, with exact domain status and observed prices/terms. Offer ranked reserves grouped by style. |
 
-For a new project, expect questions before names. The agent explains the name types with examples such as Apple, Kodak, Amazon, and IBM, so you can respond to familiar names without knowing naming terminology. You can choose one type, a ranked mix, or ask the agent to recommend a mix. Known project details do not need to be repeated.
+For a new project, expect a conversation, not a questionnaire dump. Each answer informs the next question. Names you like and your reasons can establish direction; otherwise a small varied exploratory pitch helps test taste. Those early names are clearly unchecked, and feedback comes before the long research pass. Known project details and resolved direction do not need to be repeated.
 
 ## What you get
 
 - A business and industry brief with an explicit choice of name types.
 - Distinct research territories and the reason for each pivot.
-- A curated shortlist with pronunciation, origin or construction, strategic fit, and material risks.
+- A ranked shortlist of 5–10 distinct options with pronunciation, origin or construction, strategic fit, and material risks.
+- Exact domain status and observed price, currency, term, renewal when quoted, provider, and check date for every final option.
+- An offer to see the next-best research candidates grouped by style, strongest first, with incomplete screening and rejection reasons preserved.
 - Dated evidence for external checks, with unfinished work clearly marked.
 - A project record that preserves decisions, rejected directions, and next steps.
 
@@ -84,7 +86,7 @@ The skill avoids mechanical vowel removal, invented etymologies, repetitive cate
 
 ## What a completed run must demonstrate
 
-- A resolved brief, including preferred name types and hard constraints, using information already supplied.
+- A resolved brief for the actual naming object, plus taste calibration and hard constraints, using information already supplied.
 - Actual findings from distinct research territories, with inspected source entries and roots that informed the names.
 - Specific elimination reasons and meaningful pivots where needed, rather than a long list of spelling variants.
 - Separate dated evidence for every recommended name's exact domain, commercial use, preliminary marks, language/culture, and required handles.
