@@ -497,7 +497,7 @@ Distinguish:
 
 Never claim a domain is available based on search-engine absence.
 
-Check it live.
+Check it live using [domain-checks.md](domain-checks.md), including the public unauthenticated Vercel lookup and other accessible routes before claiming credentials or unavailable tools prevent it.
 
 ---
 
@@ -721,4 +721,4 @@ For trademarks, report the scope of the preliminary search and confusing similar
 
 For pronunciation, spelling, and recall, distinguish an agent's desk assessment from actual human testing. Use spoken/heard-first, spelling, and delayed recall trials when participants are available. Never invent test participants, success rates, or memorability scores.
 
-If live research is unavailable, finish discovery and supported territory research, disclose exactly what could not be checked, and record remaining work. Present unchecked candidate names only when the user explicitly requests exploratory output; label every such candidate **exploratory, screening incomplete**. Do not offer an unchecked shortlist as the default completed answer. Do not pretend the result is launch ready or repeatedly ask permission to continue accessible independent work.
+If live research is unavailable after trying accessible alternatives, finish discovery and supported work, disclose exactly what could not be checked and why, and record remaining work. When the brief is usable, present a small **provisional shortlist, screening incomplete** without requiring another permission round. Put the limitation notice before the names and show unknown checks per candidate. Separate desk exploration from verified research and provisional output from a completed screened recommendation. Do not pretend the result is launch ready or repeatedly ask permission to continue accessible independent work.

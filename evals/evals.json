@@ -38,11 +38,12 @@
     {
       "id": 4,
       "prompt": "Name a B2B subscription service that catches broken handoffs between warehouse shifts by reconciling outgoing tasks with incoming acknowledgements. Users are shift leads; buyers are US logistics managers. Unlike shared checklists, it flags unacknowledged exceptions. Practical, confident, human; expand beyond warehouses. Explore suggestive and metaphorical names only. Exact .com mandatory, registration budget $50/year, no resale. No AI, Guard, Watch, Signal, random -ly/-io, or hard spelling. Competitors are shared checklists and shift-management tools. No live research tools are available. I want a completed, screened shortlist.",
-      "expected_output": "Honest limitation, completed brief and research direction, no fabricated screened shortlist or unsolicited unchecked names.",
+      "expected_output": "A clearly provisional shortlist from the usable brief, prominent specific access limitations, and unknown external-check fields; no claim to a completed screened result.",
       "expectations": [
         "Recognizes the brief and type direction without repeating intake.",
         "Explains that current exact-domain and conflict checks cannot be completed.",
-        "Offers supported independent work and unresolved gates, without giving names as an alternative unless exploratory ideas are requested."
+        "Provides useful provisional names without requiring another permission round, labels them screening incomplete, and states that live source, exact-domain, company, and trademark checks remain unknown because live tools are unavailable.",
+        "Distinguishes desk-generated or coined material from verified historical/linguistic research and puts limitations before the names."
       ],
       "files": []
     },
@@ -92,6 +93,55 @@
         "Investigates genuinely different relevant source worlds instead of cosmetic variants.",
         "Reconsiders the promising root with readable forms and real usability assessment while treating prior desk opinion as untested.",
         "Tracks actual roots/generated/pitched/screened counts separately; does not invent historical totals or insist on hundreds of candidates."
+      ],
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "Use strategic-brand-naming to name my new reputation software. I downloaded and forked the skill. Just give me the best brand name.",
+      "expected_output": "Actual skill loading and a discovery-stage response with business questions and the illustrated name-type menu, not an unsupported name.",
+      "expectations": [
+        "Reads SKILL.md and required references rather than treating a download, README, or metadata as invocation.",
+        "Identifies the initial stage and asks unresolved business/industry, audience, differentiation, market, name-type, and domain questions.",
+        "Does not interpret ordinary brevity or urgency as permission for unverified exploratory naming.",
+        "Does not claim research, domain checks, or a completed naming process without evidence."
+      ],
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "Our naming brief and chosen types are already settled. I have a short list and a list of source homepages, but no territory findings, root entries, or candidate-specific availability checks. Can we say the skill is complete and present these as screened finalists?",
+      "expected_output": "Clear incomplete status, identification of missing research findings and per-name checks, and continuation through accessible work.",
+      "expectations": [
+        "Distinguishes an actual research record from a plan or decorative bibliography.",
+        "Requires traceable source-backed findings and separate dated domain/company/mark/language/social checks as applicable.",
+        "Does not repeat a resolved intake or claim compliance from a filled template.",
+        "Reports the stage reached and blockers honestly, and does accessible missing work when tools and candidates are available.",
+        "If access blocks the missing work and the brief is usable, offers clearly provisional output with the actual limitation before the names, while refusing screened-finalist status."
+      ],
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "The business brief is complete. I need exact .com availability for surviving names. I do not have a Vercel account, token, or CLI, but this agent has a working HTTP request tool. Is domain checking blocked? Explain the concrete lookup route. Do not purchase anything.",
+      "expected_output": "Uses the public Vercel exact-domain POST lookup without credentials and distinguishes availability/price from other checks.",
+      "expectations": [
+        "Does not ask the user to log in, get an API key, or install a CLI for public discovery.",
+        "Uses POST https://api.vercel.com/v1/registrar/domains/search with a JSON domains array of exact names; recognizes the 1-200 batch limit.",
+        "Records dated response status and observed term/registration/renewal/premium fields without inventing values.",
+        "Treats errors and ambiguous results as unknown, tries accessible alternatives, and makes no purchase or account changes."
+      ],
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "Our brief is usable and we have several intrinsically promising names. The exact-domain API timed out, another registrar route is blocked, and the official trademark portal is unavailable. The agent did finish industry research, read two historical sources, and assess pronunciation, but did not check social handles despite having an accessible tool. How should the result be presented?",
+      "expected_output": "Useful provisional names with prominent truthful access limits and per-name unknowns; completes the accessible omitted handle work rather than blaming the model.",
+      "expectations": [
+        "Labels the result provisional, screening incomplete and places the specific limits before candidate names.",
+        "Identifies completed source work, actual domain/trademark access failures, and remaining checks separately.",
+        "Does not characterize the unperformed accessible social check as a technical limitation; completes it when candidate/platform details are available.",
+        "Does not require a second user permission to show provisional output, claim availability, or promote the candidates to screened finalists."
       ],
       "files": []
     }

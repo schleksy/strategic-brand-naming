@@ -1,0 +1,50 @@
+{
+  "skill_name": "strategic-brand-naming",
+  "purpose": "Routing fixtures for the name/description only. These are test cases, not evidence that any host activated the skill.",
+  "cases": [
+    {
+      "prompt": "Help me name a new company selling accounting software.",
+      "should_trigger": true
+    },
+    {
+      "prompt": "We need a name for our new subscription product.",
+      "should_trigger": true
+    },
+    {
+      "prompt": "Rename my marketing agency.",
+      "should_trigger": true
+    },
+    {
+      "prompt": "Our brand names sound generic. Find a better direction.",
+      "should_trigger": true
+    },
+    {
+      "prompt": "Evaluate this brand-name candidate for domain usability and conflicts.",
+      "should_trigger": true
+    },
+    {
+      "prompt": "Research historical and linguistic roots for our new service brand.",
+      "should_trigger": true
+    },
+    {
+      "prompt": "Name a Python variable for the total invoice amount.",
+      "should_trigger": false
+    },
+    {
+      "prompt": "Suggest a baby name.",
+      "should_trigger": false
+    },
+    {
+      "prompt": "Rename files in my downloads folder.",
+      "should_trigger": false
+    },
+    {
+      "prompt": "Write a tagline for our existing brand.",
+      "should_trigger": false
+    },
+    {
+      "prompt": "Design a logo for our already named company.",
+      "should_trigger": false
+    }
+  ]
+}

@@ -1,6 +1,16 @@
 # Project records
 
-Use these fields in the project's existing record. Do not create a new system when one already exists. Keep current observations dated and project specific.
+Use these fields in the project's existing file or conversation record. Do not create a new system when one already exists. Keep current observations dated and project specific. Record findings and decisions, not private reasoning. Keep the record outside this reusable skill repository; do not commit client research here.
+
+## Execution status
+
+- Scope: full new project, rename, pivot, candidate comparison, or screening-only audit.
+- Current stage and stages actually completed; brief/type requirements still open.
+- Supporting references actually read; any unavailable files or tools.
+- Evidence pointers for each completed stage: brief, territory/root findings, eliminations, and candidate-specific checks.
+- Latest handoff checkpoint and next concrete action.
+
+Do not mark a stage complete because its template exists. Link completed work to actual findings. If a tool is unavailable, record the limitation rather than inventing an observation.
 
 ## Brief
 
@@ -58,4 +68,26 @@ Record the user's choice and date only when provided, reasons given, rejected al
 
 - "None of these feel distinctive": diagnose the prior roots and pivot to new territories rather than generating suffix variants.
 - "It was available last month": keep the old observation dated and perform a fresh check before making a current availability claim.
-- "Give me the best exact .com, but don't browse": explain that a checked recommendation cannot be completed. Present names only if exploratory ideas were explicitly requested; keep the exact .com requirement visibly unverified.
+- "Give me the best exact .com, but don't browse": explain that a checked recommendation cannot be completed. A useful provisional round may be provided from the usable brief, with the exact .com requirement visibly unverified and no invented availability claims.
+
+## Completion audit
+
+Before a screened recommendation, trace each proposed name back through the brief, type preference, source-backed territory/root, knockout decision, and each required dated external check. If any required check is unknown, keep the candidate screening incomplete. Summarize completed work and unresolved gates in concise bullets; reference the detailed record instead of repeating all raw research. For explicitly exploratory work, preserve the user's narrowed scope and do not relabel it as screened.
+
+## Limitation disclosure for provisional results
+
+Use this when actual tool/source access prevents required checks after suitable accessible alternatives. A usable brief permits provisional ideas without asking the user to request them again. Keep the notice before the names and maintain distinct per-candidate statuses.
+
+- **Result status:** provisional shortlist, screening incomplete.
+- **Completed:** actual business discovery, selected types, territory work, intrinsic evaluation, and successful checks. Distinguish desk exploration from inspected sources.
+- **Could not verify:** each specific missing step, the real reason, and alternatives attempted. Examples include no outbound HTTP tool, a registrar timeout, a rate-limited endpoint, or an inaccessible official trademark portal. Use the actual reason, not a canned one.
+- **Not performed:** any step omitted without a technical blocker. Do not recast it as a model limitation; complete it if it is accessible.
+- **Effect on these names:** identify which domain, meaning, company-use, mark, or handle observations remain unknown. Explain that the names are creative candidates pending those checks, not verified available choices.
+- **Next checks:** the specific unresolved actions, using the domain routes in `domain-checks.md` and relevant official sources. Do not suggest login for public discovery or silently make the user do checks an available agent tool can perform.
+
+A compact response can say: "These are provisional ideas based on your brief and the work listed below. I could not verify [specific checks] because [actual limitation]. Those fields remain unknown; this is not a completed screened recommendation." Replace brackets with facts from the run. Never claim a tool/source failure that did not occur.
+
+| Candidate | Why it fits / origin status | Exact domain | Company/product use | Preliminary marks | Language/culture | Required handles | Remaining action |
+|---|---|---|---|---|---|---|---|
+
+Use checked with a dated evidence pointer, unknown with its reason, not performed, confirmed failure, or not applicable. Do not label a whole candidate "available" because one column passed. Keep confirmed hard failures out of both the proposed provisional set and the screened finalists.
